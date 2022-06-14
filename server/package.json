@@ -1,0 +1,26 @@
+{
+  "name": "tetris-static-server",
+  "version": "1.0.0",
+  "description": "Tetris static server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shtein52/tetris"
+  },
+  "author": "millerrabin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shtein52/tetris/issues"
+  },
+  "homepage": "https://github.com/Shtein52/tetris#readme",
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa-send": "^5.0.1"
+  }
+}

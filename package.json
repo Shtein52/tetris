@@ -1,0 +1,19 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "Tetris frontend",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "node ../server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shtein52/tetris"
+  },
+  "author": "millerrabin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shtein52/tetris/issues"
+  },
+  "homepage": "https://github.com/Shtein52/tetris#readme"  
+}

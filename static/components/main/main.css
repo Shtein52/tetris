@@ -1,0 +1,46 @@
+.Main {
+  height: 100%;
+}
+
+.Main .game-field {
+  display: grid;
+  grid-template-areas: "left game right"
+                       "footer footer footer";
+  width: 100%;
+  height: 100%;
+  grid-template-columns: auto 40% auto;
+  grid-template-rows: auto 3vw;
+}
+
+.Main .game-field .left {
+  grid-area: left;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 100%;
+}
+
+.Main .game-field .right {
+  grid-area: right;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 100%;
+
+}
+
+.Main .game-field .game {
+  grid-area: game;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.Main .game-field footer {
+  grid-area: footer;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
